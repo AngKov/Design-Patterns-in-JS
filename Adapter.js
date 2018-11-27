@@ -1,3 +1,9 @@
+//Implement Adapter:
+//There are three classes Basket, Product and Book
+//Basket has the following methods: addItem, getTotalCost, buyItems
+//Class Product has the compatible interface to work with Basket 
+//Book's interface needs to be converted by adapter
+
 class Product {
 	constructor(partNumber, productLine, manufacture, price) {
 		this.partNumber = partNumber;
